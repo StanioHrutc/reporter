@@ -1,0 +1,11 @@
+{
+    "status_board": {
+        "status_board_service_host": "http://localhost",
+        "status_board_service_port": 3333
+    },
+    "queue": {
+        "url": "amqp://guest:guest@localhost:5672/",
+        "name": "hello",
+        "retry_amount": 5
+    }
+}
